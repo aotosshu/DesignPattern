@@ -4,8 +4,8 @@ import abstractfactory.factory.Item;
 import abstractfactory.factory.Page;
 
 public class MarkdownPage extends Page {
-    public MarkdownPage(String filename, String fileExtension) {
-        super(filename, fileExtension);
+    public MarkdownPage(String title) {
+        super(title);
     }
 
     @Override
@@ -14,9 +14,8 @@ public class MarkdownPage extends Page {
         sb.append(String.format("# %s", this.title)).append(System.lineSeparator());
         sb.append(System.lineSeparator());
         for (Item item : this.items) {
-            sb.append(item.format());
+            sb.append(item.format()).append(System.lineSeparator());
         }
-        sb.append(System.lineSeparator());
         return sb.toString();
     }
 }

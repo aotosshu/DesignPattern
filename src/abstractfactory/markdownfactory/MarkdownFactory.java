@@ -18,6 +18,6 @@ public class MarkdownFactory extends Factory {
 
     @Override
     public Page createPage(String title) {
-        return new MarkdownPage(title, "md");
+        return new MarkdownPage(title);
     }
 }

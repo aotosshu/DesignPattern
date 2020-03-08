@@ -9,6 +9,6 @@ public class MarkdownLink extends Link {
 
     @Override
     public String format() {
-        return String.format("[%s](%s)", this.caption, this.url) + System.lineSeparator();
+        return String.format("[%s](%s)", this.caption, this.url);
     }
 }

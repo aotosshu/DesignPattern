@@ -14,9 +14,8 @@ public class MarkdownTray extends Tray {
         sb.append(String.format("## %s", this.caption)).append(System.lineSeparator());
         sb.append(System.lineSeparator());
         for (Item item : this.items) {
-            sb.append("- ").append(item.format());
+            sb.append("- ").append(item.format()).append(System.lineSeparator());
         }
-        sb.append(System.lineSeparator());
         return sb.toString();
     }
 }

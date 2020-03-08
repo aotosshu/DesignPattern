@@ -10,9 +10,8 @@ public abstract class Page {
     protected String fileExtension;
     protected ArrayList<Item> items = new ArrayList<>();
 
-    protected Page(String title, String fileExtension) {
+    protected Page(String title) {
         this.title = title;
-        this.fileExtension = fileExtension;
     }
 
     public Page add(Item item) {
@@ -21,13 +20,9 @@ public abstract class Page {
     }
 
     public void output() {
-        String filename = this.title + "." + this.fileExtension;
-        try(Writer writer = new FileWriter(filename)) {
-            writer.write(this.format());
-            System.out.println(filename + " を作成しました。");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        System.out.println("```");
+        System.out.println(this.format());
+        System.out.println("```");
     }
 
     public abstract String format();

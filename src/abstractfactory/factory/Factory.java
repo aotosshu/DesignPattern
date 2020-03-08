@@ -9,6 +9,7 @@ public abstract class Factory {
         Factory factory = null;
         try {
             factory = (Factory) Class.forName(classname).getDeclaredConstructor().newInstance();
+            System.out.println(String.format("* %s 処理開始", factory.getClass().getSimpleName()));
         } catch (Exception e) {
             e.printStackTrace();
         }

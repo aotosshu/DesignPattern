@@ -9,11 +9,9 @@ import java.util.stream.Stream;
 public class Main {
     public static void main(String[] args) {
         String mainPackageName = Main.class.getPackageName();
-//        String subPackageName = "markdownfactory.MarkdownFactory";
-//        Factory factory = Factory.getFactory(mainPackageName + "." + subPackageName);
 
         Stream.of("markdownfactory.MarkdownFactory", "htmlfactory.HtmlFactory")
-                .map(subPackageName -> Factory.getFactory(mainPackageName + "." + subPackageName))
+                .map(factoryClassName -> Factory.getFactory(mainPackageName + "." + factoryClassName))
                 .forEach(factory -> factory.createPage("お気に入り")
                         .add(factory.createTray("プログラミング")
                                 .add(factory.createLink("Qiita", "https://qiita.com/"))

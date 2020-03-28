@@ -1,5 +1,7 @@
 # DesignPattern
+
 デザインパターンサンプル集
 
 ## 参考
-- [GoFのデザインパターンまとめ](https://qiita.com/i-tanaka730/items/c63c6c22abd1477e0ba0)
+
+- [Java Design Patterns - Example Tutorial - JournalDev](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)

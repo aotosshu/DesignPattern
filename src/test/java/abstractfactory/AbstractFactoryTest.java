@@ -1,11 +1,8 @@
-package abstractfactory.test;
+package abstractfactory;
 
-import abstractfactory.ComputerFactory;
-import abstractfactory.PCFactory;
-import abstractfactory.ServerFactory;
 import abstractfactory.model.Computer;
 
-public class Test {
+public class AbstractFactoryTest {
 
     public static void main(String[] args) {
         testAbstractFactory();

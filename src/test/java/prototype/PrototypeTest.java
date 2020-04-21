@@ -1,10 +1,8 @@
-package prototype.test;
-
-import prototype.Employees;
+package prototype;
 
 import java.util.List;
 
-public class Test {
+public class PrototypeTest {
     public static void main(String[] args) {
         Employees emps = new Employees();
         emps.loadData();

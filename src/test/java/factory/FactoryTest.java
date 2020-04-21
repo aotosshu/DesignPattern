@@ -1,9 +1,8 @@
-package factory.test;
+package factory;
 
-import factory.ComputerFactory;
 import factory.model.Computer;
 
-public class TestFactory {
+public class FactoryTest {
 
     public static void main(String[] args) {
 

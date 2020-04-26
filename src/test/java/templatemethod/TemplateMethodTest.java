@@ -1,6 +1,6 @@
-package template;
+package templatemethod;
 
-public class TemplateTest {
+public class TemplateMethodTest {
 
     public static void main(String[] args) {
 

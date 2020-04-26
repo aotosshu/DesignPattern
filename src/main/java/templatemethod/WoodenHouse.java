@@ -1,4 +1,4 @@
-package template;
+package templatemethod;
 
 public class WoodenHouse extends HouseTemplate {
 

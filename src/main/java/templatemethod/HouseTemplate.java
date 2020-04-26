@@ -1,4 +1,4 @@
-package template;
+package templatemethod;
 
 public abstract class HouseTemplate {
 

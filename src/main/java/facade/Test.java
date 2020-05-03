@@ -2,7 +2,7 @@ package facade;
 
 import java.sql.Connection;
 
-public class FacadeTest {
+public class Test {
 
     public static void main(String[] args) {
         String tableName = "Employee";

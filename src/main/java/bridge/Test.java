@@ -1,6 +1,6 @@
 package bridge;
 
-public class BridgeTest {
+public class Test {
 
     public static void main(String[] args) {
 

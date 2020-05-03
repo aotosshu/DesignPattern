@@ -1,6 +1,6 @@
 package composite;
 
-public class CompositeTest {
+public class Test {
 
     public static void main(String[] args) {
 

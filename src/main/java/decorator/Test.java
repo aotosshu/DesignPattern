@@ -1,6 +1,6 @@
 package decorator;
 
-public class DecoratorTest {
+public class Test {
 
     public static void main(String[] args) {
 

@@ -2,7 +2,7 @@ package chainofresponsibility;
 
 import java.util.Scanner;
 
-public class ChainOfResponsibilityTst {
+public class Test {
 
     public static void main(String[] args) {
 

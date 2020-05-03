@@ -1,6 +1,6 @@
 package builder;
 
-public class BuilderTest {
+public class Test {
     public static void main(String[] args) {
         Computer computer = new Computer.ComputerBuilder("500 GB", "2 GB")
                 .setBluetoothEnabled(true)

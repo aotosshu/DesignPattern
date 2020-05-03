@@ -1,6 +1,6 @@
 package proxy;
 
-public class ProxyTest {
+public class Test {
 
     public static void main(String[] args) {
 

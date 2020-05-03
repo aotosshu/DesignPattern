@@ -1,6 +1,6 @@
 package flyweight;
 
-public class FlyweightTest {
+public class Test {
 
     public static void main(String[] args) {
 

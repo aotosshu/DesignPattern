@@ -2,7 +2,7 @@ package prototype;
 
 import java.util.List;
 
-public class PrototypeTest {
+public class Test {
     public static void main(String[] args) {
         Employees emps = new Employees();
         emps.loadData();

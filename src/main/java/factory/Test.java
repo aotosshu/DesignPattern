@@ -2,7 +2,7 @@ package factory;
 
 import factory.model.Computer;
 
-public class FactoryTest {
+public class Test {
 
     public static void main(String[] args) {
 

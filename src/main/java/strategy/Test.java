@@ -1,6 +1,6 @@
 package strategy;
 
-public class StrategyTest {
+public class Test {
 
     public static void main(String[] args) {
         ShoppingCart cart = new ShoppingCart();
